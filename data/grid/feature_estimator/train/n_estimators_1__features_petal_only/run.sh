@@ -1,0 +1,1 @@
+papermill -f data/grid/feature_estimator/train/n_estimators_1__features_petal_only/job.yml notebooks/train_iris.ipynb data/grid/feature_estimator/train/n_estimators_1__features_petal_only/train_iris.ipynb --cwd $(pwd)/notebooks > data/grid/feature_estimator/train/n_estimators_1__features_petal_only/log.log

@@ -1,0 +1,8 @@
+ipdb
+ipython
+autopep8
+ipykernel
+papermill
+black
+pytest
+flake8
