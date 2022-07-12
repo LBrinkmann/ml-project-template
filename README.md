@@ -36,7 +36,7 @@ pip install -e ".[dev]"
 pip install -e djx
 ```
 
-Note
+**Note**
 
 Pytorch needs to be installed separately to match the right cuda version.
 See also: https://pytorch.org/get-started/locally/ (_Not really needed for this
