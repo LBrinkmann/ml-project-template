@@ -2,6 +2,8 @@
 */**/.ipynb_checkpoints
 *.egg-info
 *.log
+temp/**/*
+data/**/*
 
 .DS_Store
 .venv

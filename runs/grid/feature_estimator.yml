@@ -3,6 +3,8 @@ description: >-
 exec:
   command: papermill -f {job_file} notebooks/train_iris.ipynb {output_path}/train_iris.ipynb --cwd $(pwd)/notebooks
   script_name: local
+  data_dir: data
+  temp_dir: temp
 params_only: true
 params:
   cross_val_args:
